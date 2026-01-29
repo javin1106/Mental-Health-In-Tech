@@ -7,6 +7,7 @@
 [![Streamlit App](https://img.shields.io/badge/Streamlit-Live_App-FF4B4B?style=for-the-badge&logo=streamlit)](https://openlearn-capstoneproject-188nmv.streamlit.app/)
 [![Medium](https://img.shields.io/badge/Medium-Technical_Report-000000?style=for-the-badge&logo=medium)](https://medium.com/@javin.chutani/mental-health-in-tech-a-machine-learning-approach-to-understanding-and-predicting-support-needs-35e86f5bc86f)
 [![Python](https://img.shields.io/badge/Python-3.11-3776AB?style=for-the-badge&logo=python)](https://www.python.org/)
+[![Docker](https://img.shields.io/badge/Docker-Available-2496ED?style=for-the-badge&logo=docker)](https://hub.docker.com/r/javin1106/188nmw)
 
 **A Data Science Project by Javin Chutani**
 
@@ -46,6 +47,7 @@ This project explores mental health challenges faced by employees in the tech in
 - 📊 **Interactive Dashboard** - Streamlit web application for model predictions and insights
 - 📈 **Model Performance Metrics** - ROC curves, confusion matrices, and detailed evaluation
 - 🎨 **Data Visualizations** - Univariate, bivariate, and multivariate analysis
+- 🐳 **Docker Support** - Containerized deployment for easy setup
 
 ---
 
@@ -98,8 +100,9 @@ This project explores mental health challenges faced by employees in the tech in
 
 - Python 3.11 or higher
 - pip package manager
+- Docker (optional, for containerized deployment)
 
-### Installation
+### Option 1: Local Installation
 
 1. **Clone the repository**
    ```bash
@@ -120,12 +123,33 @@ This project explores mental health challenges faced by employees in the tech in
 4. **Access the application**
    - Open your browser and navigate to `http://localhost:8501`
 
-### Using Docker
+### Option 2: Using Docker
 
+#### Pull from Docker Hub (Recommended)
 ```bash
+# Pull the latest image
+docker pull javin1106/188nmw:latest
+
+# Run the container
+docker run -p 8501:8501 javin1106/188nmw:latest
+```
+
+#### Or Build Locally
+```bash
+# Build the image
 docker build -t mental-wellness-app .
+
+# Run the container
 docker run -p 8501:8501 mental-wellness-app
 ```
+
+#### Docker Compose (if available)
+```bash
+docker-compose up
+```
+
+**Access the application:**
+- Open your browser and navigate to `http://localhost:8501`
 
 ---
 
@@ -199,6 +223,7 @@ Experience the interactive dashboard: [**Launch App**](https://openlearn-capston
 - **Matplotlib & Seaborn** - Data visualization
 - **Streamlit** - Web application framework
 - **Joblib** - Model serialization
+- **Docker** - Containerization and deployment
 
 ---
 
@@ -235,6 +260,7 @@ This project is open source and available for educational and research purposes.
 **Javin Chutani**
 - GitHub: [@javin1106](https://github.com/javin1106)
 - Medium: [@javin.chutani](https://medium.com/@javin.chutani)
+- Docker Hub: [javin1106/188nmw](https://hub.docker.com/r/javin1106/188nmw)
 
 ---
 
