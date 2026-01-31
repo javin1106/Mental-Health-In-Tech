@@ -41,7 +41,7 @@ menu = st.sidebar.radio(
 
 # 🏠 Home
 if menu == "🏠 Home":
-    st.title("OpenLearn 1.0 ML Capstone Project")
+    st.title("Mental Health in Tech Survey")
     st.divider()
     st.header("Dataset Overview")
     st.markdown("""
