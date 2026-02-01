@@ -4,3 +4,4 @@ xgboost
 matplotlib
 scikit-learn
 streamlit
+altair<5
