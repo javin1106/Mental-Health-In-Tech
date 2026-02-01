@@ -210,7 +210,7 @@ For detailed results and insights, please refer to the [Technical Report](https:
 
 ## 🌐 Live Demo
 
-Experience the interactive dashboard: [**Launch App**](https://openlearn-capstoneproject-188nmv.streamlit.app/)
+Experience the interactive dashboard: [**Launch App**](https://javin-mental-health-in-tech.streamlit.app/)
 
 ---
 
