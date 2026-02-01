@@ -126,21 +126,23 @@ This project explores mental health challenges faced by employees in the tech in
 ### Option 2: Using Docker
 
 #### Pull from Docker Hub (Recommended)
+The Docker image uses **Python 3.11** as the base image for improved performance and compatibility.
+#### Pull from Docker Hub (Recommended)
 ```bash
 # Pull the latest image
-docker pull javin1106/188nmw:latest
+docker pull javin1106/mental-health-app:latest
 
 # Run the container
-docker run -p 8501:8501 javin1106/188nmw:latest
+docker run -p 8501:8501 javin1106/mental-health-app:latest
 ```
 
 #### Or Build Locally
 ```bash
 # Build the image
-docker build -t mental-wellness-app .
+docker build -t mental-health-app .
 
 # Run the container
-docker run -p 8501:8501 mental-wellness-app
+docker run -p 8501:8501 mental-health-app
 ```
 
 #### Docker Compose (if available)
@@ -260,7 +262,7 @@ This project is open source and available for educational and research purposes.
 **Javin Chutani**
 - GitHub: [@javin1106](https://github.com/javin1106)
 - Medium: [@javin.chutani](https://medium.com/@javin.chutani)
-- Docker Hub: [javin1106/188nmw](https://hub.docker.com/r/javin1106/188nmw)
+- Docker Hub: [javin1106/mental-health-app](https://hub.docker.com/r/javin1106/mental-health-app)
 
 ---
 
